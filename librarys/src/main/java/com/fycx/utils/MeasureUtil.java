@@ -128,7 +128,7 @@ public class MeasureUtil {
         }
         ViewGroup.LayoutParams params = listView.getLayoutParams();
         params.height = totalHeight + (listView.getDividerHeight() * (size - 1));
-        LogUtil.d("MeasureUtil", "listview-height--" + params.height);
+        LogUtils.d("MeasureUtil", "listview-height--" + params.height);
         listView.setLayoutParams(params);
     }
 
@@ -157,7 +157,7 @@ public class MeasureUtil {
         }
         ViewGroup.LayoutParams params = gv.getLayoutParams();
         params.height = totalHeight + gv.getPaddingTop() + gv.getPaddingBottom() + 2;
-        LogUtil.d("MeasureUtil", "gridview-height--" + params.height);
+        LogUtils.d("MeasureUtil", "gridview-height--" + params.height);
         gv.setLayoutParams(params);
     }
 

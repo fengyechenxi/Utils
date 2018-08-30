@@ -5,11 +5,11 @@ import android.util.Log;
 /**
  * Log日志工具类
  */
-public class LogUtil {
+public class LogUtils {
 
     public static boolean Debug = true;
 
-    private LogUtil() {
+    private LogUtils() {
         throw new AssertionError();
     }
 
